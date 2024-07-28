@@ -1,0 +1,71 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#logo{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    color: rgb(21, 236, 21);
+    text-align: center;
+}
+
+nav{
+    border: 1px solid black;
+    padding: 6px;
+    background-color: rgb(21, 236, 21);
+    text-align: center;
+    width: auto;
+}
+
+h2{
+    display: inline-block;
+}
+
+#carica-prima{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(254, 199, 97);
+    width: 250px;
+    border-radius: 5px;       
+}
+
+#carica-seconda{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(21, 236, 21);
+    width: 400px;
+    border-radius: 5px;
+}
+
+#carica-terza{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(248, 85, 85);
+    width: 100px;
+    border-radius: 5px;
+}
+
+#contenitore{
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    width: 1000px;
+    color: white;
+}
